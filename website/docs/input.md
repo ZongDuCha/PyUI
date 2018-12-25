@@ -82,23 +82,5 @@ export default {
 :::demo 文本域高度可通过 `rows` 属性控制，`rows`的默认值为 5。
 
 ```html
-<py-input
-  type="textarea"
-  v-model="textarea"
-  :rows="2"
-  placeholder="请输入内容"
->
-</py-input>
-
-<script>
-export default {
-  data() {
-    return {
-      textarea: '',
-    };
-  },
-};
-</script>
+<py-input type="textarea" :auto-height='true' />
 ```
-
-:::
